@@ -1,0 +1,281 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF1BD5B5-B3FA-40F8-A8D4-DB49E23A8BD4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RecoveryStar</RootNamespace>
+    <AssemblyName>RecoveryStar</AssemblyName>
+    <ApplicationIcon>RecoveryStar.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/RecoveryStar/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.1.4.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessForm.Designer.cs">
+      <DependentUpon>ProcessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProcessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Protect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RecoveryStar.ico" />
+    <None Include="Resources\RSIcon_9.jpg" />
+    <None Include="Resources\RSIcon_8.jpg" />
+    <None Include="Resources\RSIcon_7.jpg" />
+    <None Include="Resources\RSIcon_6.jpg" />
+    <None Include="Resources\RSIcon_5.jpg" />
+    <None Include="Resources\RSIcon_49.jpg" />
+    <None Include="Resources\RSIcon_48.jpg" />
+    <None Include="Resources\RSIcon_47.jpg" />
+    <None Include="Resources\RSIcon_46.jpg" />
+    <None Include="Resources\RSIcon_45.jpg" />
+    <None Include="Resources\RSIcon_44.jpg" />
+    <None Include="Resources\RSIcon_43.jpg" />
+    <None Include="Resources\RSIcon_42.jpg" />
+    <None Include="Resources\RSIcon_41.jpg" />
+    <None Include="Resources\RSIcon_40.jpg" />
+    <None Include="Resources\RSIcon_4.jpg" />
+    <None Include="Resources\RSIcon_39.jpg" />
+    <None Include="Resources\RSIcon_38.jpg" />
+    <None Include="Resources\RSIcon_37.jpg" />
+    <None Include="Resources\RSIcon_36.jpg" />
+    <None Include="Resources\RSIcon_35.jpg" />
+    <None Include="Resources\RSIcon_34.jpg" />
+    <None Include="Resources\RSIcon_33.jpg" />
+    <None Include="Resources\RSIcon_32.jpg" />
+    <None Include="Resources\RSIcon_31.jpg" />
+    <None Include="Resources\RSIcon_30.jpg" />
+    <None Include="Resources\RSIcon_3.jpg" />
+    <None Include="Resources\RSIcon_29.jpg" />
+    <None Include="Resources\RSIcon_28.jpg" />
+    <None Include="Resources\RSIcon_27.jpg" />
+    <None Include="Resources\RSIcon_26.jpg" />
+    <None Include="Resources\RSIcon_25.jpg" />
+    <None Include="Resources\RSIcon_24.jpg" />
+    <None Include="Resources\RSIcon_23.jpg" />
+    <None Include="Resources\RSIcon_22.jpg" />
+    <None Include="Resources\RSIcon_21.jpg" />
+    <None Include="Resources\RSIcon_20.jpg" />
+    <None Include="Resources\RSIcon_2.jpg" />
+    <None Include="Resources\RSIcon_19.jpg" />
+    <None Include="Resources\RSIcon_18.jpg" />
+    <None Include="Resources\RSIcon_17.jpg" />
+    <None Include="Resources\RSIcon_16.jpg" />
+    <None Include="Resources\RSIcon_15.jpg" />
+    <None Include="Resources\RSIcon_14.jpg" />
+    <None Include="Resources\RSIcon_13.jpg" />
+    <None Include="Resources\RSIcon_12.jpg" />
+    <None Include="Resources\RSIcon_11.jpg" />
+    <None Include="Resources\RSIcon_10.jpg" />
+    <None Include="Resources\RSIcon_1.jpg" />
+    <None Include="Resources\RSIcon_0.jpg" />
+    <None Include="Resources\RSIcon_49.png" />
+    <None Include="Resources\RSIcon_48.png" />
+    <None Include="Resources\RSIcon_47.png" />
+    <None Include="Resources\RSIcon_46.png" />
+    <None Include="Resources\RSIcon_45.png" />
+    <None Include="Resources\RSIcon_44.png" />
+    <None Include="Resources\RSIcon_43.png" />
+    <None Include="Resources\RSIcon_42.png" />
+    <None Include="Resources\RSIcon_41.png" />
+    <None Include="Resources\RSIcon_40.png" />
+    <None Include="Resources\RSIcon_39.png" />
+    <None Include="Resources\RSIcon_38.png" />
+    <None Include="Resources\RSIcon_37.png" />
+    <None Include="Resources\RSIcon_36.png" />
+    <None Include="Resources\RSIcon_35.png" />
+    <None Include="Resources\RSIcon_34.png" />
+    <None Include="Resources\RSIcon_33.png" />
+    <None Include="Resources\RSIcon_32.png" />
+    <None Include="Resources\RSIcon_31.png" />
+    <None Include="Resources\RSIcon_30.png" />
+    <None Include="Resources\RSIcon_29.png" />
+    <None Include="Resources\RSIcon_28.png" />
+    <None Include="Resources\RSIcon_27.png" />
+    <None Include="Resources\RSIcon_26.png" />
+    <None Include="Resources\RSIcon_25.png" />
+    <None Include="Resources\RSIcon_24.png" />
+    <None Include="Resources\RSIcon_23.png" />
+    <None Include="Resources\RSIcon_22.png" />
+    <None Include="Resources\RSIcon_21.png" />
+    <None Include="Resources\RSIcon_20.png" />
+    <None Include="Resources\RSIcon_19.png" />
+    <None Include="Resources\RSIcon_18.png" />
+    <None Include="Resources\RSIcon_17.png" />
+    <None Include="Resources\RSIcon_16.png" />
+    <None Include="Resources\RSIcon_15.png" />
+    <None Include="Resources\RSIcon_14.png" />
+    <None Include="Resources\RSIcon_13.png" />
+    <None Include="Resources\RSIcon_12.png" />
+    <None Include="Resources\RSIcon_11.png" />
+    <None Include="Resources\RSIcon_10.png" />
+    <None Include="Resources\RSIcon_9.png" />
+    <None Include="Resources\RSIcon_8.png" />
+    <None Include="Resources\RSIcon_7.png" />
+    <None Include="Resources\RSIcon_6.png" />
+    <None Include="Resources\RSIcon_5.png" />
+    <None Include="Resources\RSIcon_4.png" />
+    <None Include="Resources\RSIcon_3.png" />
+    <None Include="Resources\RSIcon_2.png" />
+    <None Include="Resources\RSIcon_1.png" />
+    <None Include="Resources\RSIcon_0.png" />
+    <None Include="Resources\Errorshield.png" />
+    <None Include="Resources\Goodshield.png" />
+    <None Include="Resources\RecycleBinEmpty.png" />
+    <None Include="Resources\Test.png" />
+    <None Include="Resources\Repair.png" />
+    <None Include="Resources\Exit.png" />
+    <None Include="Resources\Pause.png" />
+    <None Include="Resources\Start.png" />
+    <None Include="Resources\RSIcon.png" />
+    <None Include="Resources\AboutSplitter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRC-64\CRC-64\CRC-64.csproj">
+      <Project>{83ADA005-B2D2-4B9C-A50A-03E4B0F09E96}</Project>
+      <Name>CRC-64</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileAnalyzer\FileAnalyzer\FileAnalyzer.csproj">
+      <Project>{2B482EF1-71D2-4D9C-9CDF-C2EDFE4BCB60}</Project>
+      <Name>FileAnalyzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileBrowser\FileBrowser\FileBrowser.csproj">
+      <Project>{FC8064DF-B0BC-4D03-B1AE-077F3387412C}</Project>
+      <Name>FileBrowser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileCodec\FileCodec\FileCodec.csproj">
+      <Project>{5FC6C837-A88F-495C-AC83-E3ADC8080F53}</Project>
+      <Name>FileCodec</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileNamer\FileNamer\FileNamer.csproj">
+      <Project>{4E08D8CB-B0A2-4E96-8A12-1138ACEB9687}</Project>
+      <Name>FileNamer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileSplitter\FileSplitter\FileSplitter.csproj">
+      <Project>{32F7C188-9ECB-4C49-BD12-1290D3B4A62B}</Project>
+      <Name>FileSplitter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MACTrackBarLib\MACTrackBarLib\MACTrackBarLib.csproj">
+      <Project>{3ABEE454-72A3-402E-BA79-CC0D875D02B0}</Project>
+      <Name>MACTrackBarLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RecoveryStarCORE\RecoveryStarCORE\RecoveryStarCORE.csproj">
+      <Project>{344DC911-835B-4C41-B90C-CD1FA78484A3}</Project>
+      <Name>RecoveryStarCORE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RS-RAID\RS-RAID\RS-RAID.csproj">
+      <Project>{4812BA70-4ED4-435D-B5DA-F6E6D2EC5176}</Project>
+      <Name>RS-RAID</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

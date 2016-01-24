@@ -1,0 +1,17 @@
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\RecoveryStarCORE.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\RecoveryStarCORE.pdb
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\FileAnalyzer.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\FileCodec.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\FileNamer.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\FileSplitter.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\RS-RAID.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\CRC-64.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\FileAnalyzer.pdb
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\FileCodec.pdb
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\FileNamer.pdb
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\FileSplitter.pdb
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\RS-RAID.pdb
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\bin\Release\CRC-64.pdb
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\obj\Release\RecoveryStarCORE.csprojResolveAssemblyReference.cache
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\obj\Release\RecoveryStarCORE.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\RecoveryStarCORE\RecoveryStarCORE\obj\Release\RecoveryStarCORE.pdb

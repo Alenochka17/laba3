@@ -1,0 +1,69 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{344DC911-835B-4C41-B90C-CD1FA78484A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RecoveryStarCORE</RootNamespace>
+    <AssemblyName>RecoveryStarCORE</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RecoveryStarCORE.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FileAnalyzer\FileAnalyzer\FileAnalyzer.csproj">
+      <Project>{2B482EF1-71D2-4D9C-9CDF-C2EDFE4BCB60}</Project>
+      <Name>FileAnalyzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FileCodec\FileCodec\FileCodec.csproj">
+      <Project>{5FC6C837-A88F-495C-AC83-E3ADC8080F53}</Project>
+      <Name>FileCodec</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FileNamer\FileNamer\FileNamer.csproj">
+      <Project>{4E08D8CB-B0A2-4E96-8A12-1138ACEB9687}</Project>
+      <Name>FileNamer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FileSplitter\FileSplitter\FileSplitter.csproj">
+      <Project>{32F7C188-9ECB-4C49-BD12-1290D3B4A62B}</Project>
+      <Name>FileSplitter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\RS-RAID\RS-RAID\RS-RAID.csproj">
+      <Project>{4812BA70-4ED4-435D-B5DA-F6E6D2EC5176}</Project>
+      <Name>RS-RAID</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

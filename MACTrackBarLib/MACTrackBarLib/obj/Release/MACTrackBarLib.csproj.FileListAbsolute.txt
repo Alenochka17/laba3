@@ -1,0 +1,5 @@
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\MACTrackBarLib\MACTrackBarLib\bin\Release\MACTrackBarLib.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\MACTrackBarLib\MACTrackBarLib\obj\Release\MACTrackBarLib.csprojResolveAssemblyReference.cache
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\MACTrackBarLib\MACTrackBarLib\obj\Release\EConTech.Windows.MACUI.MACTrackBar.resources
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\MACTrackBarLib\MACTrackBarLib\obj\Release\MACTrackBarLib.csproj.GenerateResource.Cache
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\MACTrackBarLib\MACTrackBarLib\obj\Release\MACTrackBarLib.dll

@@ -1,0 +1,4 @@
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileNamer\FileNamer\bin\Release\FileNamer.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileNamer\FileNamer\bin\Release\FileNamer.pdb
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileNamer\FileNamer\obj\Release\FileNamer.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileNamer\FileNamer\obj\Release\FileNamer.pdb

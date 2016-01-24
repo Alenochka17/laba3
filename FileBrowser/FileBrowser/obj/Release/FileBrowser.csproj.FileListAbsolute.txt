@@ -1,0 +1,8 @@
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileBrowser\FileBrowser\bin\Release\FileBrowser.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileBrowser\FileBrowser\bin\Release\FileBrowser.pdb
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileBrowser\FileBrowser\obj\Release\FileBrowser.csprojResolveAssemblyReference.cache
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileBrowser\FileBrowser\obj\Release\FileBrowser.Browser.resources
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileBrowser\FileBrowser\obj\Release\FileBrowser.Properties.Resources.resources
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileBrowser\FileBrowser\obj\Release\FileBrowser.csproj.GenerateResource.Cache
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileBrowser\FileBrowser\obj\Release\FileBrowser.dll
+C:\Users\Алёна Валерьевна\Desktop\olap\Алёнка лабы отчеты\лаба 3\RecoveryStar_1_14_with_docs\Sources\RecoveryStar\FileBrowser\FileBrowser\obj\Release\FileBrowser.pdb
